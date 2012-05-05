@@ -5,4 +5,5 @@ CONKY=/usr/bin/conky
 for f in $HOME/.conky/*.conf;
 do
   $CONKY -c $f
+  sleep 2s
 done
